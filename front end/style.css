@@ -1,0 +1,156 @@
+/* body{
+    text-align: center;
+}
+div{
+    height: 50px;
+    width: 150px;
+    display: inline-block;
+    border:2px solid black;
+}
+#container{
+    height: 800px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: center; 
+}
+#box1{
+    background-color: aquamarine;
+}
+#box2{
+    background-color: cornflowerblue;
+    height:100px ;
+    align-self: self-end;
+    flex-shrink: 0.5 ;
+}
+#box3{
+    background-color: bisque;
+    height: 150px;
+}
+#box4{
+    background-color: cadetblue;
+}
+#box5{
+    background-color: pink;
+} */
+
+
+
+/* .navbar{
+    background-color: skyblue;
+    display: flex;
+    justify-content: space-evenly ;
+}
+a{
+    text-decoration: none;
+    color:navy;
+    background-color: pink;
+}
+li{
+    list-style-type:none;
+    display: inline;
+} 
+
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color:rgb(38, 89, 185);
+} 
+
+
+
+div{
+    height: 100px;
+    width: 100px;
+}
+@media(max-width:300px){
+    div{
+        background-color:green;
+    }
+}
+@media (min-width:300px) and (max-width:400px) {
+    div{
+        background-color:pink;
+    }   
+}
+@media (min-width:400px) and (max-width:600px) {
+    div{
+        background-color:gold;
+    }   
+}
+@media (min-width:600px) {
+    div{
+        background-color:dodgerblue;
+    }   
+} */
+/* ----------------- */
+
+/* div{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid black;
+    text-align: center; */
+    /* transition:all 1s ease-in 0.5 s;
+    transition-delay: 0s; */
+    /* position: absolute;
+    left: 100px;
+    top: 100px; */
+    /* animation-name: ani;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite; */
+    /* border-radius: 50%; */
+    /* animation-direction: alternate; */
+    /* animation: ani 2s ease-in 0s alternate;
+}
+@keyframes ani{
+    0%{ background-color: pink ;
+            left:0px;}
+    50%{
+        background-color: chartreuse;
+    }
+    100%{ background-color: skyblue ;
+        right:0px;}
+} */
+div:hover{
+    background-color: aqua;
+    font-size: 20px;
+    transform: scale(1.5,1.5);
+    transition-duration: 5s;
+    transform:rotate(270deg);
+    transform: translate(50px,50px);
+    transform: skew(20deg);
+}
+div:active{
+    background-color: blueviolet;
+} 
+
+/* ----------------- */
+
+/*div{
+    height: 100px;
+    width: 100px;
+    border-radius: 50% ;
+    border: 20px solid #087E8B;
+    border-top: 20px solid #FF5A5F;
+    transform: rotate(0deg);
+    animation:spin 1s ease-in-out 0s infinite normal;
+}
+@keyframes spin {
+    from{transfom: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}*/
