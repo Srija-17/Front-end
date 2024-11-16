@@ -1,1 +1,1 @@
-#This file contains basic front end files.
+This file contains basic front end files.
